@@ -864,12 +864,12 @@ a {
   align-items: center;
 }
 .clients-row__people {
-  margin-left: 220px;
+  margin-left: 210px;
   text-align: center;
 }
 
 .clients-row__image .clients-row__people:nth-child(2) {
-  margin-left: 444px;
+  margin-left: 426px;
 }
 .clients-row__heading {
   margin-top: 10px;
@@ -1132,7 +1132,7 @@ a {
 .footer {
   margin-top: 100px;
   background: #fafbff;
-  width: 100%;
+  width: inherit;
 }
 .footer__grid {
   display: grid;
@@ -1208,7 +1208,7 @@ a {
 }
 .end {
   margin-top: 28px;
-  width: 100%;
+  width: inherit;
   height: 84px;
   background: #7264d6;
   text-align: center;
