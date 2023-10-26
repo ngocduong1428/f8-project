@@ -91,7 +91,7 @@ a {
   bottom: -2px;
 }
 .header__action {
-  margin-left: 326px;
+  margin-left: 298px;
   display: flex;
 }
 .header__action--login {
@@ -1010,6 +1010,7 @@ a {
   height: 466px;
   position: relative;
   text-align: center;
+  width: 1170px;
 }
 .apps__star1 {
   position: absolute;
