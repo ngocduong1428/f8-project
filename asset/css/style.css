@@ -1131,6 +1131,7 @@ a {
 .footer {
   margin-top: 100px;
   background: #fafbff;
+  width: 100%;
 }
 .footer__grid {
   display: grid;
