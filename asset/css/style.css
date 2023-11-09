@@ -47,11 +47,12 @@ a {
 /* header */
 .header {
   margin-top: 54px;
+  background: #fff;
 }
 .header {
   position: sticky;
-  top: 20px;
-  z-index: 100;
+  top: 0px;
+  z-index: 5;
 }
 .header__inner {
   display: flex;
@@ -91,13 +92,14 @@ a {
   bottom: -2px;
 }
 .header__action {
-  margin-left: 298px;
+  margin-left: 288px;
   display: flex;
 }
 .header__action--login {
   background: #fff;
   color: rgba(33, 40, 50, 1);
   min-width: 114px;
+  margin-right: 10px;
 }
 .header__action--sign-up {
   min-width: 114px;
@@ -854,6 +856,7 @@ a {
 .clients__item:hover {
   border: #fff;
   filter: drop-shadow(0px 22px 54px rgba(0, 0, 0, 0.07));
+  cursor: pointer;
 }
 .clients__item:hover::before {
   border: #fff;
@@ -1119,6 +1122,7 @@ a {
 }
 .apps__btn:hover {
   animation: move 0.5s infinite alternate;
+  cursor: pointer;
 }
 @keyframes move {
   from {
